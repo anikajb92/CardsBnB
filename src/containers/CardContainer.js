@@ -1,9 +1,10 @@
 import React from 'react'
-import Card from '../components/card'
-export default function CardContainer() {
+
+export default function CardContainer({ cards, renderCards }) {
+
     return (
         <div className="all-cards">
-            all cards here
+            {renderCards(cards)}
         </div>
     )
 }

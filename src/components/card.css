@@ -3,5 +3,8 @@
     width: 200px;
     height: 200px;
     margin-right: -100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
 }
 
